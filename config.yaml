@@ -1,0 +1,73 @@
+title: "Debug客栈"
+languageCode: "zh-CN"
+baseurl: "debuginn.cn"
+theme: "MDgo"
+MetaDataFormat: "yaml"
+Copyright: "鲁ICP备18012789号"
+# canonifyurls: true
+builddrafts: false
+PaginatePath: paginator
+pygmentsStyle: "default"
+pygmentsUseClasses: true
+disablePathToLower: true
+hasCJKLanguage: true
+permalinks:
+  posts: /:year/:month/:day/:slug/
+
+outputs:
+  home:
+    - "HTML"
+    # - "RSS"
+
+# outputFormats:
+#   RSS:
+#     mediatype: "application/rss"
+#     baseName: "feed"
+
+Taxonomies:
+  tag: "tags"
+  category: "categories"
+  series: "series"
+
+author:
+  name: "debuginn"
+
+params:
+  UserName: "Meng小羽"
+  UserGitHub: "debuginn"
+  UserEmail: "debuginn@icloud.com"
+  UserTelegram: "debuginn"
+  DateForm: "2020年07月26日 15:04:05"
+  sidebarrecentlimit: 5
+  Tagline: "thinking"
+  Description: "做一个爱分享的程序猿"
+  Keywords: "独立博客,程序员,思考,读书笔记,技术分享"
+  NoticeText: "MDgo - 基于 Hugo 静态搭建，MDUI 设计的类 Github
+  风格博客主题，欢迎你对此主题提交你的建议，请点击右侧按钮"
+  NoticeLink: "https://github.com/debuginn/MDgo/issues"
+  Info: "哎呀 (´///ω///`) 被发现惹！<br />🤠 &nbsp;做一个爱分享的程序猿<br />热爱开源，热爱技术，分享知识，交流经验"
+  FooterContent: "订阅本站 / 赞助本站 / 广告合作 / 使用说明 / 关于站长 / 友情链接"
+  baidu_verification: ""
+  google_verification: ""
+  
+
+menu:
+  main:
+      - Name: "技术归档"
+        Weight: -3
+        URL: "/skill/"
+      - Name: "科技杂谈"
+        Weight: -3
+        URL: "/think/"
+      - Name: "关于我"
+        Weight: -1
+        URL: "/about/"
+
+images:
+  - 480x
+  - 768x
+  - 960x
+  - 1024x
+  - 1920x
+  - 720x340
+  - 520x245
